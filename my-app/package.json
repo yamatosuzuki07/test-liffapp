@@ -9,11 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@line/liff": "2.21.4",
+    "@line/liff": "^2.21.4",
+    "console": "^0.7.2",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "use-line-liff": "^0.2.0"
+  },
+  "devDependencies": {
+    "@line/liff-inspector": "^1.0.2"
   }
 }
