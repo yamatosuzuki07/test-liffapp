@@ -22,6 +22,7 @@ function MyApp({ Component, pageProps }) {
             // initializeApp();
           })
           .catch((err) => {
+            console.log('失敗!!');
             console.log(err);
           });
         liff.ready.then(() => {
